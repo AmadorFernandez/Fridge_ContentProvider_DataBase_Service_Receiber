@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.amador.fridge">
+
+    <application
+        android:name=".FridgeApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HomeActivity"
+            android:launchMode="singleTop"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name=".provider.FridgeProvider"
+            android:authorities="com.amador.fridge"
+            android:enabled="true"
+            android:exported="true" />
+
+        <receiver
+            android:name=".receiber.WarningReceiber"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.amador.fridge.WARNING" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".services.WarningService"
+            android:exported="false"></service>
+    </application>
+
+</manifest>

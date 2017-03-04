@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:id="@+id/txvCategories"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:text="@string/categories"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:id="@+id/txvProducts"
+        android:layout_centerInParent="true"
+        android:text="@string/products"
+        android:layout_below="@+id/txvCategories"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:id="@+id/txvWarnings"
+        android:layout_centerInParent="true"
+        android:text="@string/warnings"
+        android:layout_below="@+id/txvProducts"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        />
+
+</RelativeLayout>

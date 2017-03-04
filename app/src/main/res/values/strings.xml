@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Fridge</string>
+    <string name="delete_ok">Producto borrado</string>
+    <string name="delete_fail">No se pudo borrar</string>
+    <string name="update_ok">Actualizado con exito</string>
+    <string name="update_fail">Fallo al actualizar</string>
+    <string name="insert_ok">Prooducto guardado</string>
+    <string name="insert_fail">Fallo al insertar</string>
+    <string name="add">Añadir</string>
+    <string name="name_empty">El nombre no puede estar en blanco</string>
+    <string name="product_name_exist">Ya hay un producto con ese nombre</string>
+    <string name="incorrec_stock">Formato de stock incorrecto</string>
+    <string name="incorrec_stock_count">Como minimo una existencia</string>
+    <string name="incorrec_count">Minimo uno</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Eliminar</string>
+    <string name="name_exists">Ya hay una categoria con ese nombre</string>
+    <string name="categories">Ver categorias</string>
+    <string name="products">Mi nevera</string>
+    <string name="warnings">Productos apunto de caducar</string>
+    <string name="incorrec_format_date">Formato de fecha incorrecto</string>
+    <string name="text_noty">Hay</string>
+    <string name="caducity">apunto de caducar</string>
+</resources>
